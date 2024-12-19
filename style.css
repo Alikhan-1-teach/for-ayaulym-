@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(179, 40, 81, 0.8); /* Прозрачно-розовый фон */
+    color: white; /* Белый цвет текста */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Заголовок */
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ffdddd; /* Светло-розовый текст */
+}
+
+/* Фото 3x4 */
+.photo {
+    width: 300px; /* Ширина фото */
+    height: 400px; /* Высота фото (соотношение 3x4) */
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0; /* Отступы сверху и снизу */
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Куплеты */
+.verse {
+    text-align: center;
+    margin-bottom: 30px; /* Отступ перед следующим фото */
+    font-size: 1.2em;
+    color: white; /* Белый цвет для стихов */
+}
+.sound{
+    width: 200px; background-color:rgba(179, 40, 81, 0.8); z-index: 10; position: absolute; right: 0; top: 0;
+    
+}
